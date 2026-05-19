@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dhruthi M Kashyap | Portfolio</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      scroll-behavior:smooth;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#0f0f0f;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+      background:linear-gradient(to bottom,#000,#111,#1c1c1c);
+    }
+
+    header h1{
+      font-size:60px;
+      margin-bottom:15px;
+    }
+
+    header p{
+      font-size:22px;
+      color:#bdbdbd;
+      margin-bottom:25px;
+    }
+
+    .buttons{
+      display:flex;
+      gap:15px;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+
+    .btn{
+      text-decoration:none;
+      padding:12px 25px;
+      border-radius:8px;
+      transition:0.3s;
+      font-weight:bold;
+    }
+
+    .primary{
+      background:white;
+      color:black;
+    }
+
+    .primary:hover{
+      background:#d9d9d9;
+    }
+
+    .outline{
+      border:2px solid white;
+      color:white;
+    }
+
+    .outline:hover{
+      background:white;
+      color:black;
+    }
+
+    section{
+      padding:70px 10%;
+    }
+
+    h2{
+      font-size:40px;
+      margin-bottom:30px;
+      border-bottom:2px solid #333;
+      padding-bottom:10px;
+    }
+
+    .card{
+      background:#1a1a1a;
+      padding:25px;
+      border-radius:12px;
+      margin-bottom:25px;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .card h3{
+      margin-bottom:10px;
+      color:#00bfff;
+    }
+
+    .skills-container{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+    }
+
+    .project-container{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:25px;
+    }
+
+    .project-btn{
+      display:inline-block;
+      margin-top:15px;
+      text-decoration:none;
+      background:white;
+      color:black;
+      padding:10px 18px;
+      border-radius:8px;
+      font-weight:bold;
+    }
+
+    .project-btn:hover{
+      background:#d9d9d9;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      background:#000;
+    }
+
+    .contact-links a{
+      color:white;
+      margin:0 10px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    .contact-links a:hover{
+      color:#00bfff;
+    }
+
+    ul{
+      margin-left:20px;
+      margin-top:10px;
+    }
+
+    @media(max-width:768px){
+      header h1{
+        font-size:38px;
+      }
+
+      header p{
+        font-size:18px;
+      }
+
+      h2{
+        font-size:32px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+  <header>
+    <h1>DHRUTHI M KASHYAP</h1>
+
+    <p>
+      MERN Stack Developer | React Developer | Blockchain Enthusiast
+    </p>
+
+    <div class="buttons">
+      <a href="mailto:dhruthimkashyap@gmail.com" class="btn primary">
+        Contact Me
+      </a>
+
+      <a href="Dhruthi_MK_Resume_v2.pdf" target="_blank" class="btn outline">
+        Download Resume
+      </a>
+
+      <a href="dhruthi-intuit.pdf" target="_blank" class="btn outline">
+        Intuit Certificate
+      </a>
+    </div>
+
+    <br>
+
+    <div class="contact-links">
+      <a href="https://github.com/Dhruthi-Kashyap" target="_blank">
+        GitHub
+      </a>
+
+      <a href="https://in.linkedin.com/in/dhruthi-m-kashyap" target="_blank">
+        LinkedIn
+      </a>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <h2>About Me</h2>
+
+    <div class="card">
+      <p>
+        Passionate MERN Stack Developer with experience building
+        full-stack applications, REST APIs, blockchain solutions,
+        and responsive web applications.
+        Skilled in React.js, Node.js, MongoDB, Express.js,
+        and problem solving.
+      </p>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+
+<section>
+  <h2>Experience</h2>
+
+  <div class="card">
+    <h3>MERN Stack Trainee – Dyashin Technosoft</h3>
+
+    <p>Bangalore | 12/2025 – Present</p>
+
+    <ul>
+      <li>
+        Built full-stack applications using the MERN stack and managed database schemas.
+      </li>
+
+      <li>
+        Developed RESTful APIs and integrated frontend-backend systems.
+      </li>
+
+      <li>
+        Optimized SQL queries and improved backend performance.
+      </li>
+
+      <li>
+        Worked with authentication, API testing, debugging, and deployment workflows.
+      </li>
+
+      <a
+      href="https://github.com/Dhruthi-Kashyap/whop-project-v2"
+      target="_blank"
+      class="project-btn"
+      style="margin-left:10px;"
+    >
+    Recent Project Work
+    </a>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Research Intern – CCCIR</h3>
+
+    <p>Bengaluru | 09/2024 – 01/2025</p>
+
+    <ul>
+      <li>
+        Worked on Digital Twin technology research in healthcare using real-time
+        cardiology and radiology datasets.
+      </li>
+
+      <li>
+        Performed data preprocessing, classification, and exploratory analysis
+        on synthetic cardiac datasets.
+      </li>
+
+      <li>
+        Assisted in predictive healthcare modeling workflows using machine learning concepts.
+      </li>
+
+      <li>
+        Studied supervised learning, CNNs, RNNs, and time-series analysis for
+        disease prediction and anomaly detection.
+      </li>
+
+      <li>
+        Worked on medical dataset cleaning, normalization, and feature engineering
+        for model training.
+      </li>
+
+      <li>
+        Contributed to research involving Digital Twin systems for real-time
+        healthcare monitoring and clinical decision support.
+      </li>
+
+      <li>
+        Collaborated on internal projects and research prototypes for healthcare systems.
+      </li>
+    </ul>
+
+    <br>
+
+    <a
+      href="https://github.com/Dhruthi-Kashyap/digital-twin"
+      target="_blank"
+      class="project-btn"
+    >
+      Digital Twin Research Repository
+    </a>
+
+    
+  </div>
+
+  <div class="card">
+    <h3>Curation Lead – Microsoft Student Club, CIT</h3>
+
+    <p>09/2023 – 07/2024</p>
+
+    <ul>
+      <li>
+        Developed workshop content and technical documentation.
+      </li>
+
+      <li>
+        Conducted technical sessions and peer learning events for 200+ students.
+      </li>
+
+      <li>
+        Organized community initiatives and contributed to student engagement activities.
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+
+<!-- REPLACE YOUR EXISTING PROJECTS SECTION WITH THIS -->
+
+<section>
+  <h2>Projects</h2>
+
+  <div class="project-container">
+
+    <!-- BOOK MANAGEMENT -->
+    <div class="card">
+      <h3>Book Management REST API</h3>
+
+      <p>
+        A simple REST API built with Node.js and Express.js to manage a book inventory
+        without using any database. All data is stored locally in a books.json file
+        using the fs module.
+      </p>
+
+      <br>
+
+      <h4>Features</h4>
+
+      <ul>
+        <li>Add a new book</li>
+        <li>Get all books</li>
+        <li>Get book by ID</li>
+        <li>Delete book by ID</li>
+        <li>File-based storage using books.json</li>
+        <li>Middleware for logging and request enhancement</li>
+        <li>Input validation for required fields</li>
+      </ul>
+
+      <br>
+
+      <h4>Tech Stack</h4>
+
+      <p>
+        Node.js, Express.js, File System (fs module), Postman
+      </p>
+
+      <br>
+
+      <h4>API Endpoints</h4>
+
+      <ul>
+        <li>GET /books → Get all books</li>
+        <li>GET /books/:id → Get book by ID</li>
+        <li>POST /books → Add a new book</li>
+        <li>DELETE /books/:id → Delete book by ID</li>
+      </ul>
+
+      <br>
+
+      <p>
+        API Flow:
+        Request → Middleware → Validation → Route Handler →
+        File Operations → Response
+      </p>
+
+      <a
+        href="https://github.com/Dhruthi-Kashyap/book-management"
+        target="_blank"
+        class="project-btn"
+      >
+        View Project
+      </a>
+    </div>
+
+
+
+    <!-- NEWS24 -->
+    <div class="card">
+      <h3>News24-7 – Real-Time News Web Application</h3>
+
+      <p>
+        News24 is a responsive and dynamic news application built using React.js
+        and Vite that provides real-time news updates using third-party news APIs
+        such as GNews and NewsAPI.
+      </p>
+
+      <br>
+
+      <p>
+        The application allows users to explore news across categories including:
+        Business, Technology, Sports, Health, Science, and Entertainment.
+      </p>
+
+      <br>
+
+      <h4>Features</h4>
+
+      <ul>
+        <li>Real-time news fetching using external APIs</li>
+        <li>Category-based news filtering</li>
+        <li>Infinite scrolling for seamless browsing</li>
+        <li>Responsive UI using Bootstrap</li>
+        <li>React Router DOM for navigation</li>
+        <li>Reusable React components</li>
+        <li>Environment variable API management</li>
+      </ul>
+
+      <br>
+
+      <h4>Tech Stack</h4>
+
+      <p>
+        React.js, Vite, Bootstrap, React Router DOM,
+        Fetch API, GNews API, NewsAPI
+      </p>
+
+      <br>
+
+      <h4>Learning Outcomes</h4>
+
+      <ul>
+        <li>API Integration in React</li>
+        <li>State Management using Hooks</li>
+        <li>Infinite Scroll Implementation</li>
+        <li>Responsive UI Development</li>
+        <li>Component-Based Architecture</li>
+        <li>Client-Side Routing</li>
+      </ul>
+
+      <a
+        href="https://github.com/Dhruthi-Kashyap/news24-7"
+        target="_blank"
+        class="project-btn"
+      >
+        View Project
+      </a>
+    </div>
+
+
+
+    <!-- REALESTATE DAPP -->
+    <div class="card">
+      <h3>RealEstate-Dapp-Sepolia – REAL Estate DApp</h3>
+
+      <p>
+        A decentralized application (DApp) that enables secure real estate
+        transactions using smart contracts on the Ethereum blockchain.
+      </p>
+
+      <br>
+
+      <p>
+        The platform represents properties as NFTs and uses an escrow mechanism
+        for secure transactions among buyers, sellers, lenders, and inspectors.
+      </p>
+
+      <br>
+
+      <h4>Features</h4>
+
+      <ul>
+        <li>Real Estate NFTs for ownership verification</li>
+        <li>Escrow smart contract system</li>
+        <li>Role-based access for Buyer, Seller, Lender, Inspector</li>
+        <li>IPFS integration using Pinata</li>
+        <li>Property listing and approval workflow</li>
+        <li>Dynamic role-based UI interactions</li>
+        <li>JSON Server integration for property details</li>
+      </ul>
+
+      <br>
+
+      <h4>Tech Stack</h4>
+
+      <p>
+        React (Vite), Tailwind CSS, Solidity, Hardhat,
+        OpenZeppelin, Ethereum Sepolia Testnet,
+        Ethers.js, IPFS, JSON Server
+      </p>
+
+      <br>
+
+      <h4>Workflow</h4>
+
+      <ul>
+        <li>Seller uploads metadata to IPFS</li>
+        <li>Property details stored in JSON Server</li>
+        <li>Property listed and approved</li>
+        <li>NFT minted after approval</li>
+        <li>Buyer purchases via escrow mechanism</li>
+        <li>Lender and Inspector verify transactions</li>
+        <li>Seller provides final approval</li>
+      </ul>
+
+      <br>
+
+      <h4>Future Improvements</h4>
+
+      <ul>
+        <li>Multi-chain support (Polygon, Base)</li>
+        <li>On-chain loan approval process</li>
+      </ul>
+
+      <br>
+
+      
+      <a
+        href="https://github.com/chetan123340/RealEstate-Dapp-Sepolia"
+        target="_blank"
+        class="project-btn"
+      >
+        View Project
+      </a>
+    </div>
+
+
+
+    <!-- DIGITAL TWIN -->
+    <div class="card">
+      <h3>Digital Twin in Healthcare – Research Work</h3>
+
+      <p>
+        This research explores the concept of Digital Twin technology in healthcare,
+        where a virtual replica of a patient or medical system is created using
+        real-time data.
+      </p>
+
+      <br>
+
+      <p>
+        The digital twin continuously receives information from medical devices,
+        sensors, and patient records to simulate and monitor health conditions.
+      </p>
+
+      <br>
+
+      <p>
+        Researchers use these datasets to train algorithms, test predictive models,
+        and validate the performance of digital twin systems.
+      </p>
+
+      <br>
+
+      <p>
+        By analyzing large volumes of cardiology and radiology data,
+        the system can identify patterns, detect anomalies,
+        and assist healthcare professionals in making informed decisions.
+      </p>
+
+      <br>
+
+      <h4>Machine Learning Concepts Used</h4>
+
+      <ul>
+        <li>
+          Supervised Learning using Decision Trees,
+          SVMs, and Neural Networks
+        </li>
+
+        <li>
+          Deep Learning with CNNs for radiology image analysis
+        </li>
+
+        <li>
+          RNNs and Time-Series Analysis for ECG and heart-rate prediction
+        </li>
+
+        <li>
+          Data preprocessing, cleaning, normalization,
+          and feature engineering
+        </li>
+
+        <li>
+          Predictive healthcare analysis and anomaly detection
+        </li>
+      </ul>
+
+      <br>
+
+      <h4>Research Focus</h4>
+
+      <ul>
+        <li>Digital Twin simulation systems</li>
+        <li>Healthcare data modeling</li>
+        <li>Real-time monitoring systems</li>
+        <li>Clinical decision support</li>
+        <li>AI-assisted diagnostics</li>
+      </ul>
+
+      <a
+        href="https://github.com/Dhruthi-Kashyap/digital-twin"
+        target="_blank"
+        class="project-btn"
+      >
+        View Research Project
+      </a>
+    </div>
+
+  </div>
+</section>
+
+  <!-- EDUCATION -->
+  <section>
+    <h2>Education</h2>
+
+    <div class="card">
+      <h3>B.E. – Information Science & Engineering</h3>
+
+      <p>Cambridge Institute of Technology, Bangalore</p>
+
+      <p>Graduation: 07/2025</p>
+
+      <p>CGPA: 9.05 / 10</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h2>Technical Skills</h2>
+
+    <div class="skills-container">
+
+      <div class="card">
+        <h3>Languages</h3>
+        <p>JavaScript, SQL , Python</p>
+      </div>
+
+      <div class="card">
+        <h3>Frontend</h3>
+        <p>React.js, HTML5, CSS3, Tailwind CSS , Next.js</p>
+      </div>
+
+      <div class="card">
+        <h3>Backend & Databases</h3>
+        <p>Node.js, Express.js, MongoDB, Mongoose , MySQL</p>
+      </div>
+
+      <div class="card">
+        <h3>Tools</h3>
+        <p>Git, GitHub, Postman, VS Code</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ACHIEVEMENTS -->
+  <section>
+    <h2>Achievements & Certifications</h2>
+
+    <div class="card">
+      <ul>
+        <li>
+          MERN Stack Certification – Apna College
+        </li><br>
+        <a href="dhruthi-mern-apna" target="_blank" class="btn outline">
+             Certificate
+      </a>
+      <br>
+<br>
+        <li>
+          Intuit 2025 – Best Project Award for Technical Complexity
+        </li>
+
+        <li>
+          Secured 1st Place at Intuit Innovation Challenge 2025
+        </li>
+
+        <li>
+          Published research in UGC-CARE Gradiva Review Journal
+        </li>
+
+        <li>
+          Microsoft Student Club – CIT, Curation Lead
+        </li>
+
+        <li>
+          Medium Writer sharing blogs on self-improvement and life experiences
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section>
+    <h2>Contact</h2>
+
+    <div class="card" style="text-align:center;">
+      <p>Email: dhruthimkashyap@gmail.com</p>
+
+      <br>
+
+      <div class="contact-links">
+        <a href="https://github.com/Dhruthi-Kashyap" target="_blank">
+          GitHub
+        </a>
+
+        <a href="https://in.linkedin.com/in/dhruthi-m-kashyap" target="_blank">
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      © 2026 Dhruthi M Kashyap | Portfolio Website
+    </p>
+  </footer>
+
+  <script>
+    console.log("Portfolio Loaded Successfully");
+  </script>
+
+</body>
+</html>
